@@ -1,0 +1,67 @@
+.movi-card{
+    display: inline-block;
+    border-radius: 3px;
+    width: 280px;
+    height: 360px;
+    background-size: cover;
+
+}
+
+.cardi1{
+            background-image: url(img/film1-1.webp);
+            position: relative;
+    
+}
+.cardi1:hover::before{
+    content:"" ;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2);
+    position: absolute;
+    background: url("img/film1-2.webp");
+    transition: all 0.4s linear;
+    background-size: cover;
+}
+ 
+
+    
+.cardi2{
+    background-image: url(img/film2-1.webp);
+}
+.cardi2:hover{
+    background-image: url(img/film2-2.webp);
+    transform: scale(1.1);
+    transition: all 0.4s linear;
+}
+.cardi3{
+    background-image: url(img/film3-1.webp);
+    
+}
+.cardi3:hover{
+    background-image: url(img/film3-2.webp);
+    transform: scale(1.1);
+    transition: all 0.4s linear;
+}
+.cardi4{
+    background-image: url(img/film4-1.webp);
+    position: relative;
+    
+}
+.cardi4:hover::before{
+    content:"" ;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2);
+    position: absolute;
+    background: url("img/film4-2.webp"); 
+    background-size: cover;
+}
+
+
+.cardi5{
+    background-image: url(img/film5-1.webp)
+}
+.cardi5:hover{
+    background-image: url(img/film5-2.webp)
+    
+}
